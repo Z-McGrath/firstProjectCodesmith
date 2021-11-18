@@ -21,3 +21,22 @@ app.get('/',(req,res)=>{
      res.send(data)
  })
  
+ app.get('/Things to do',(req,res)=>{
+    const data =  controller.getRestaurants()
+     res.send(data)
+ })
+
+ app.get('/Best Beaches in Town',(req,res)=>{
+    const data =  controller.getRestaurants()
+     res.send(data)
+ })
+
+ app.get('/Nigth Life',(req,res)=>{
+    const data =  controller.getRestaurants()
+     res.send(data)
+ })
+
+ app.get('/Insta Worthy Spots',(req,res)=>{
+    const data =  controller.getRestaurants()
+     res.send(data)
+ })

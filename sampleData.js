@@ -1,3 +1,6 @@
+////https://www.ubereats.com/ke/store/wasp-%26-sprout/vWgA5NKNSUyKc_XvejZM7A?utm_source=google&utm_medium=organic&utm_campaign=place-action-link
+/////https://www.ubereats.com/ke/store/wasp-%26-sprout/vWgA5NKNSUyKc_XvejZM7A?utm_source=google&utm_medium=organic&utm_campaign=place-action-link
+/////https://www.ubereats.com/ke/store/wasp-%26-sprout/vWgA5NKNSUyKc_XvejZM7A?utm_source=google&utm_medium=organic&utm_campaign=place-action-link
 const data = {
     hotels: {
         city: 'Nirobi',
@@ -15,34 +18,77 @@ const data = {
         
     },
     restaurants:  {
-      city: "NewYork",
+      city: "Nairobi, Kenya",
       restaurants: [ 
         {
-          name: "someRestaurant",
-          type: "middle eastern",
-          menu: "link a file ",
-          location: "someLocation",
+          name: "Waps & Sprout",
+          type: "Italian",
+          menu: "link a file ", 
+          location: "Loresho,Nairobi",
           hours: {
-            monday: "MondHours",
+            monday: "2-11pm",
             tuesday: "TuesHours"
           },
           reviews: [{},{},{}],
         }, 
         {
-          name: "someOtherRestaurant",
-          type:  "american",
+          name: "The Arbor",
+          type:  "Kenyan",
           menu: "link a file ",
-          location: "someOtherLocation",
+          price: '$$',
+          location: "904 James Gicheru Rd, Nairobi",
+          phoneNumber: "+254 -729 -400291",
           hours: {
             monday: "MondHours",
-            tuesday: "TuesHours"
-          },
-          placesToVisit: {
-               
+            tuesday: "TuesHours",
           },
           reviews: [{},{},{}],
-        }]
-    }
+        },
+          {
+          name: "Brew Bistro & Lounge",
+          type: "Kenyan",
+          menu: 'click on the link', 
+          lacation: "Piedmont Plaza, Ngong Rd",
+          price: '$$',
+          },
+          {
+            name: "Mama Ashanti",
+            type:  "Kenyan",
+            menu: "link a file ",
+            price: '$$',
+            location: "904 James Gicheru Rd, Nairobi",
+            phoneNumber: "+254 -736 -222324",
+            hours: {
+              monday: "MondHours",
+              tuesday: "TuesHours",
+          },
+          reviews: [{},{},{}],
+        },
+          {
+            name: "Abyssinia",
+            type:  "Ethiopian",
+            menu: "link a file ",
+            price: '$',
+            location: "Muguga Green,Nairobi",
+            phoneNumber: "+254- 725 -151515",
+            hours: {
+              monday: "MondHours",
+              tuesday: "TuesHours",
+          },
+          reviews: [{},{},{}],
+        },
+        ]
+     },
+    NightLife: {
+      clubAndBars: [{
+        name: "skylux",
+        type: "bar",
+        location: '256 woodvale Grove',
+        reviews: "****",
+        },
+      ]
+    },
+     
 }
 
 module.exports = data;

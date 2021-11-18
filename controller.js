@@ -11,7 +11,8 @@ const data = require('./sampleData')
            const restaurant = restaurantData[i] //one restaurant from array with all information 
            const name = restaurant.name //getting the name of restaurant
            restaurants.push(name)
-        }  
+        } 
+
       
         return restaurants;
     }
