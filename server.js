@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-
+const controller = require('./controller')
 const PORT = 8080;
 const app = express();
 
@@ -10,3 +10,14 @@ app.listen(PORT);
 app.get('/home',(req,res)=>{
     res.sendFile(path.resolve(__dirname + '/public/index.html'))
 })
+//created a route for restaurants
+app.get('/restaurants',(req,res)=>{
+   const data =  controller.getRestaurants()
+    res.send(data)
+})
+
+app.get('/',(req,res)=>{
+    const data =  controller.getRestaurants()
+     res.send(data)
+ })
+ 
